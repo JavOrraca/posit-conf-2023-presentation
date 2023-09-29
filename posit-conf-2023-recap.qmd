@@ -1,12 +1,12 @@
 ---
 title: "posit::conf(<FONT COLOR='white'>2023</FONT>)"
 author: "Javier Orraca-Deatcu"
+
 format: 
   revealjs:
     embed-resources: false
     theme: [default, styling.scss]
     title-slide-attributes:
-      data-background-image: images/centene_logo_white.svg
       data-background-size: 360px
       data-background-position: bottom 50px right 50px
       data-background-color: "#76AADB"
@@ -31,7 +31,6 @@ Posit, formerly RStudio, hosts an [annual conference](https://posit.co/conferenc
 
 - 2023 conference was hosted in Chicago
 - Approximately [1,200]{.fragment .highlight-teal} in-person attendees
-- Centene had [8]{.fragment .highlight-teal} employees attend this year
 
 . . .
 
