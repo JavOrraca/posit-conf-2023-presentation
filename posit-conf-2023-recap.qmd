@@ -3,7 +3,7 @@ title: "posit::conf(<FONT COLOR='white'>2023</FONT>)"
 author: "Javier Orraca-Deatcu"
 format: 
   revealjs:
-    embed-resources: true
+    embed-resources: false
     theme: [default, styling.scss]
     title-slide-attributes:
       data-background-image: images/centene_logo_white.svg
