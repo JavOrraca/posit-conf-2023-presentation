@@ -30,7 +30,7 @@ Posit, formerly RStudio, hosts an [annual conference](https://posit.co/conferenc
 . . .
 
 - 2023 conference was hosted in Chicago
-- Approximately [1,200]{.fragment .highlight-teal} workshop in-person attendees and over [2,000]{.fragment .highlight-teal} virtual attendees
+- Approximately [1,200]{.fragment .highlight-teal} in-person attendees
 - Centene had [8]{.fragment .highlight-teal} employees attend this year
 
 . . .
