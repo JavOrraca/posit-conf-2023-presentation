@@ -266,7 +266,7 @@ Arrow | Learn more at [https://arrow.apache.org/](https://arrow.apache.org/)
 - My personal laptop has 24 GB RAM
 - To test Arrow's capabilities, I read a [40 GB dataset]{.fragment .highlight-teal} with over [1.1 billion rows]{.fragment .highlight-teal} and 24 columns
 - The `.parquet` dataset was partitioned by Year and Month (120 files)
-- Important to note that my laptop would not be able to load this object into memory or the RStudio IDE
+- Important to note that my laptop would not be able to load this object entirely into memory as a data.frame or tibble given my laptop's limited RAM
 :::
 
 ::: footer
@@ -945,7 +945,7 @@ Slide & illustration credit | [Posit, Advanced Tidymodels Workshop](https://work
 
 ## Iterative Search `r hexes("tune")`
 
-- We could start with a few points and search the space using an iterative approach via the `finetune` package:
+- We could start with a few points and search the space using an iterative approach via the `tune` package:
 
 ![](images/tidymodels_animated_gp_fast_600.gif)
 

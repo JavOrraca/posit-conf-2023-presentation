@@ -588,7 +588,7 @@ Javier Orraca-Deatcu
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_2c5bd29b" data-update-every="1" data-play-sound="true" tabindex="0" style="right:25%;bottom:5%;font-size:3em;">
+<div class="countdown" id="timer_994eb78e" data-update-every="1" data-play-sound="true" tabindex="0" style="right:25%;bottom:5%;font-size:3em;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">00</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">10</span></code>
 </div>
@@ -647,7 +647,7 @@ Javier Orraca-Deatcu
 <li class="fragment">My personal laptop has 24 GB RAM</li>
 <li class="fragment">To test Arrow’s capabilities, I read a <span class="fragment highlight-teal">40 GB dataset</span> with over <span class="fragment highlight-teal">1.1 billion rows</span> and 24 columns</li>
 <li class="fragment">The <code>.parquet</code> dataset was partitioned by Year and Month (120 files)</li>
-<li class="fragment">Important to note that my laptop would not be able to load this object into memory or the RStudio IDE</li>
+<li class="fragment">Important to note that my laptop would not be able to load this object entirely into memory as a data.frame or tibble given my laptop’s limited RAM</li>
 </ul>
 </div>
 <div class="footer">
@@ -1394,7 +1394,7 @@ Javier Orraca-Deatcu
 <section id="iterative-search" class="slide level2">
 <h2>Iterative Search <img data-src="hexes/tune.png" class="absolute" style="top: -20px; right: 0px; width: 64px; height: 74.24px; "></h2>
 <ul>
-<li>We could start with a few points and search the space using an iterative approach via the <code>finetune</code> package:</li>
+<li>We could start with a few points and search the space using an iterative approach via the <code>tune</code> package:</li>
 </ul>
 <div id="fig-539a35d47e664c97a50115a146a7f1bd-16" class="quarto-figure quarto-figure-center">
 <figure class="quarto-float quarto-float-fig">
